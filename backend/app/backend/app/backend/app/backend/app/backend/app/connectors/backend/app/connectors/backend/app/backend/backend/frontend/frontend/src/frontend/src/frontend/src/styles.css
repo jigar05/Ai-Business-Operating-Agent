@@ -1,0 +1,9 @@
+body{font-family: Arial, sans-serif}
+.container{max-width:800px;margin:2rem auto}
+.chatbox{border:1px solid #ddd;height:400px;padding:1rem;overflow:auto}
+.msg{padding:0.5rem;margin-bottom:0.5rem;border-radius:8px}
+.user{background:#e6f3ff;text-align:right}
+.bot{background:#f3f3f3}
+.composer{display:flex;margin-top:0.5rem}
+.composer input{flex:1;padding:0.5rem}
+.composer button{padding:0.5rem 1rem}
