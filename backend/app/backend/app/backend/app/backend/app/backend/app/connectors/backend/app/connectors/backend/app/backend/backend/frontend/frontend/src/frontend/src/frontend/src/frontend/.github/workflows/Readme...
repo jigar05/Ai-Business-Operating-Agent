@@ -1,0 +1,18 @@
+# AI Business Agent — MVP Scaffold
+
+
+This repo is a starting point for an AI Business Operating Agent.
+
+
+## Run locally (docker-compose)
+
+
+1. Create a `.env` file at repo root with:
+2. Start services:
+3. Open frontend at http://localhost:3000 and backend at http://localhost:8000/ping
+
+
+## Next steps
+- Replace the simple `agents.run_agent` with LangChain agent tools and memory (see `agents.py`).
+- Add a real vector DB for production (Pinecone/Qdrant) and change `vectorstore.py`.
+- Implement auth, billing, and connectors (Slack, Google Workspace, CRMs).
