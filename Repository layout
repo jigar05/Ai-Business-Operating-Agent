@@ -1,0 +1,24 @@
+ai-business-agent/
+├─ backend/
+│ ├─ app/
+│ │ ├─ __init__.py
+│ │ ├─ main.py
+│ │ ├─ agents.py
+│ │ ├─ vectorstore.py
+│ │ ├─ connectors/
+│ │ │ ├─ __init__.py
+│ │ │ └─ sample_connector.py
+│ │ └─ models.py
+│ ├─ requirements.txt
+│ └─ Dockerfile
+├─ frontend/
+│ ├─ package.json
+│ ├─ src/
+│ │ ├─ App.jsx
+│ │ ├─ index.jsx
+│ │ └─ styles.css
+│ └─ Dockerfile
+├─ docker-compose.yml
+├─ .github/
+│ └─ workflows/
+│ └─ ci.y
